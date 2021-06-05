@@ -1,0 +1,118 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+#list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#moviecard{
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  margin: 7px;
+}
+#moviecard:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.95;
+
+}
+#infos{
+  margin: 10px;
+}
+#title{
+  color: black;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0px;
+}
+#description{
+  color: black;
+  font-size: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0px;
+}
+p{
+  text-align: center;
+}
+i{
+  margin-left: 32%;
+}
+img{
+  border-radius: 10px;
+}
+#add{
+  margin-left: 45%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form{
+  margin-top: 10px;
+  margin-right: 20px;
+}
+#left{
+  margin-left: 20px;
+}
+#search{
+  background-color: rgb(58, 58, 240);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  border: 0px;
+  margin-left: 2px;
+}
+#search:hover{
+  background-color:rgb(42, 42, 207) ;
+}
+input{
+  border-radius: 5px;
+  border: 0px;
+  background-color:rgb(233, 233, 233) ;
+  padding: 5px;
+}
+h1{
+  color: rgb(211, 211, 211);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#filter{
+  margin-left: 45%;
+  margin-top: 10px;
+}
+#leeft{
+  margin-left: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#youtube{
+  margin-left: 24%;
+  margin-top: 20px;
+}
+#des{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+}
+#fl{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+.Link{
+  text-decoration: none;
+}
+.cursor:hover{
+  cursor:default;
+}
+p{
+  text-decoration: rgb(211, 211, 211);
+}
